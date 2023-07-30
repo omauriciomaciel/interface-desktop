@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interface</title>
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="mb-3">
+      <label for="inputNumber" class="form-label">Número:</label>
+      <input type="number" class="form-control" id="inputNumber">
+    </div>
+    <div class="mb-3">
+      <label for="inputFile" class="form-label">Arquivo .xlsx:</label>
+      <input type="file" class="form-control" id="inputFile">
+    </div>
+    <button class="btn btn-primary" onclick="handleUpload()">Fazer Upload</button>
+    <button class="btn btn-success" onclick="handleDownload()">Download do Arquivo Modificado</button>
+  </div>
+  <div id="app-content" class="p-4"></div>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.esm.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
